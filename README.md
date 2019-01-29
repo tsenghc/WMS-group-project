@@ -8,25 +8,27 @@
 
 類似市場上有的倉管服務
 
+在我的部分，製作了IOS前端(Swift)以及Restful後端
+
+在這份git中，提供了Restful的部分
+
 ---
 
+#### 關於這份作業
+
+為了資料庫課程期末小組專案，在一個樣板code加入了一些擴充功能
+
+* 在網頁管理介面能修改物品圖片等資料
+* 可以在網頁管理介面查看圖片
+* 可以在網路管理介面快速產生該物品/地點的QR code
+
+* 在IOS App上可以快速的新增商品/修改/拍照/掃描
 
 
-為了期末小組專案，做了一些擴充功能
 
-整個專案如下
+前端 : php / IOS
 
-php 接入 SQL
-
-前端html (php ?) 部分使用Restful api
-
-
-
-Restful server 接 SQL
-
-IOS 基本上只是把Restful的部分功能可視化
-
-
+後端 : php / Restful
 
 ## Restful server  (Flask)
 
@@ -45,8 +47,6 @@ IOS 基本上只是把Restful的部分功能可視化
 
 Swift 4
 
-沒什麼特點，就是IOS
-
 順暢的table view / 拍照/ 照片處理 /QR 掃描/
 
 例外寫好寫滿，不crash，不死回圈不耗電
@@ -63,7 +63,7 @@ token 儲存 / 圖片 自動緩存 / Alamofire   / Json 處理
 
 ---
 
-more demo : [](https://youtu.be/X8byGabslxY)
+more demo : [demo video(youtube)](https://youtu.be/X8byGabslxY)
 
 ---
 
