@@ -1,4 +1,4 @@
-## Restful & IOS app  on group project @ DB class 
+## Restful & IOS app  on group project @ DB class
 
 ### 整個專案全貌
 
@@ -105,3 +105,68 @@ code 不乾淨請見諒 ， flask 用 global 好像不是好方法，應該用__
 
 token應該要從cookie帶才對，這裡放在資料中
 
+## php section
+### Overview
+---
+本作品在Web端的部分由tsenghc及另一位同學共同製作
+
+不過因為伺服器已經關閉，故改用簡報圖片概述，沒有留下操作影片請見諒
+
+---
+
+
+#### 首頁
+---
+很簡單的登入及註冊
+
+最初版本直接用php存取DB，在API開好之後，改用Ajax的方式向API取得帳密資料
+![](assets/README-19ee67e3.PNG)
+
+---
+
+
+#### 主頁
+---
+
+進入主頁一目瞭然的各種物品資訊
+![](assets/README-2a956ba5.PNG)
+
+---
+
+
+#### 簡單帶過選單
+---
+
+![](assets/README-fa713aaf.PNG)
+
+---
+### 各式新刪改查應用
+
+#### 地點
+---
+
+![](assets/README-575cb88b.PNG)
+
+![](assets/README-debc0f25.PNG)
+
+---
+
+
+#### 新增物品/更改物品資訊
+---
+
+![](assets/README-09819084.PNG)
+
+![](assets/README-3593acfa.PNG)
+
+---
+
+
+## Overview of Database 
+---
+紀錄一下，給以後的的自己笑笑:D
+![](assets/README-00113632.PNG)
+
+![](assets/README-ee060edf.PNG)
+
+---
