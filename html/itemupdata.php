@@ -73,7 +73,7 @@ $action = $_GET['action'];
                         async: false
                     });
                     $.ajax({
-                        url: "https://taki.dog/api/item/add",
+                        url: "https://107db.api.nkustwork.nctu.me/api/item/add",
                         type: "POST",
                         cache: false,
                         contentType: 'application/json',

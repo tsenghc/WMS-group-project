@@ -269,7 +269,7 @@ $LoginStat='show';
               <td><?php echo  $datasP[0]['placeInfo']; ?></td>
               <td><?php echo $datasP[0]['Tmp']; ?></td>
               <td><?php echo $datasP[0]['Hum']; ?></td>
-              <td><a href="http://35.221.196.173/api/file/image/<?php echo $datasP[0]['Image']; ?>" target="_blank" ><img src="http://35.221.196.173/api/file/image/small/<?php echo $datasP[0]['Image']; ?>" style="height:30px;" alt="imgUrlNull"></a></td>
+              <td><a href="https://107db.api.nkustwork.nctu.me/api/file/image/<?php echo $datasP[0]['Image']; ?>" target="_blank" ><img src="https://107db.api.nkustwork.nctu.me/api/file/image/<?php echo $datasP[0]['Image']; ?>" style="height:30px;" alt="imgUrlNull"></a></td>
               <td><?php echo $datasP[0]['UpdateTime']; ?></td>
           </table>
         	</div>
@@ -306,7 +306,7 @@ $LoginStat='show';
         	    	     <td style="vertical-align: middle;"><?php echo $row['itemInfo']; ?></td>
         	    	    <td style="vertical-align: middle;" align="center"><?php echo (int)$row['quan']; ?></td>
         	    	    <td style="vertical-align: middle;"><?php echo $row['placeInfo']; ?></td>
-        	    	    <td style="vertical-align: middle;" align="center"><a href="http://35.221.196.173/api/file/image/<?php echo $row['Image']; ?>" target="_blank" ><img src="http://35.221.196.173/api/file/image/small/<?php echo $row['Image']; ?>" style="height:45px;" alt="imgUrlNull"></a></td>
+        	    	    <td style="vertical-align: middle;" align="center"><a href="https://107db.api.nkustwork.nctu.me/api/file/image/<?php echo $row['Image']; ?>" target="_blank" ><img src="https://107db.api.nkustwork.nctu.me/api/file/image/<?php echo $row['Image']; ?>" style="height:45px;" alt="imgUrlNull"></a></td>
         	    	    <td style="vertical-align: middle;"><?php echo $row['UpdateTime']; ?></td>
         	    	    <!--修改按鈕-->
         	    	     <td width="5%" align="center" style="padding:10px;margin:10px;vertical-align:middle">

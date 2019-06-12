@@ -8,7 +8,7 @@
 <script>function sendData() {
         $(function () {            
                     $.ajax({
-                        url: "https://taki.dog/api/account/login",   //存取Json的網址             
+                        url: "https://107db.api.nkustwork.nctu.me/api/account/login",   //存取Json的網址             
                         type: "POST",
                         cache:false,
                         contentType: 'application/json',

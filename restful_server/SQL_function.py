@@ -9,10 +9,10 @@ import qrcode
 class Function:
     def __init__(self):
         pass
-        self.IP = ''
-        self.Account = ''
-        self.Password = ''
-        self.DateBase = ''
+        self.IP = '35.221.240.193'
+        self.Account = 'root'
+        self.Password = '4311'
+        self.DateBase = 'Project_DB'
     def log(self,text):
         with open('wow.log','a') as e:
             e.write("[ %s ] : %s\n"%(time.strftime("%Y-%m-%d %H:%M:%S"),text))

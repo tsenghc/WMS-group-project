@@ -117,7 +117,7 @@ alert(base64_data);
     	$.ajaxSetup({ cache:false,
                async:false });
                 $.ajax({
-                    url: "https://taki.dog/api/Env/Update",              
+                    url: "https://107db.api.nkustwork.nctu.me/api/Env/Update",              
                     type: "POST",
                     cache:false,
                     contentType: 'application/json',

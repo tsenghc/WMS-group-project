@@ -156,7 +156,7 @@ var placevar= document.getElementById("place").value;
     	$.ajaxSetup({ cache:false,
                async:false });
                 $.ajax({
-                    url: "https://taki.dog/api/items/Update",              
+                    url: "https://107db.api.nkustwork.nctu.me/api/items/Update",              
                     type: "POST",
                     cache:false,
                     contentType: 'application/json',

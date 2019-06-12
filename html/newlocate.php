@@ -106,7 +106,7 @@ var token=getCookie('token');
     	$.ajaxSetup({  async:false });
                 $.ajax({
                
-                    url: "https://taki.dog/api/Env/add",              
+                    url: "https://107db.api.nkustwork.nctu.me/api/Env/add",              
                     type: "POST",
                     cache:false,
                     contentType: 'application/json',

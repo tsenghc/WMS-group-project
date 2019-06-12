@@ -1,0 +1,7 @@
+Flask==1.0.2
+Flask-Cors==3.0.7
+Pillow==6.0.0
+pyflakes==2.1.1
+pyOpenSSL==19.0.0
+qrcode==6.1
+rsa==4.0

@@ -11,7 +11,7 @@ import base64
 import datetime
 import qrcode
 import io,os
-from qrcode.image.pure import PymagingImage
+
 from PIL import Image
 from OpenSSL import SSL
 import ssl
@@ -41,7 +41,8 @@ in debug
 
 """
 app = Flask(__name__)
-cors = CORS(app, resources={r"/api/account/*": {"origins": "*"}})
+cors = CORS(app, resources={r"/api/account/login": {"origins": "*"}})
+cors = CORS(app, resources={r"/api/account/register": {"origins": "*"}})
 cors = CORS(app, resources={r"/api/item/add": {"origins": "*"}})
 cors = CORS(app, resources={r"/api/items/Update": {"origins": "*"}})
 cors = CORS(app, resources={r"/api/Env/add": {"origins": "*"}})
@@ -375,12 +376,15 @@ def image_upload():
 
 
 @app.route('/api/account/login',methods=['POST'])
+
 def account_login():
     global core
     
-    data = request.get_json()
-    #print(data)
-    #print(len(data))
+    data = request.get_json(force=True)
+    
+    
+    print('login inp:'+str(data))
+    print(len(data))
     core.log(str(request.get_data()))
     if len(data) != 2:
         return json.dumps({'error':887},ensure_ascii=False,cls=ComplexEncoder)
@@ -489,5 +493,6 @@ class ComplexEncoder(json.JSONEncoder):
 if __name__ == '__main__':
     global core
     core = SQL_function.Function()
-
+    
     app.run(host='127.0.0.1',port=5000)
+    

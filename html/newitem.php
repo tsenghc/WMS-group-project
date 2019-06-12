@@ -113,7 +113,7 @@ var placevar= document.getElementById("place").value;
     	$.ajaxSetup({  async:false });
                 $.ajax({
                     
-                    url: "https://taki.dog/api/item/add",              
+                    url: "https://107db.api.nkustwork.nctu.me/api/item/add",              
                     type: "POST",
                     cache:false,
                     contentType: 'application/json',
